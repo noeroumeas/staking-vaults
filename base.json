@@ -151,6 +151,40 @@
     }
   },
   {
+    "id": "compound-base-usds",
+    "name": "USDS",
+    "type": "standard",
+    "token": "USDS",
+    "tokenAddress": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    "tokenDecimals": 18,
+    "earnedToken": "bimstUSDSCompound",
+    "earnedTokenAddress": "0x0116d7321b4847121d6946Bb8E59A1049DAd4E08",
+    "earnContractAddress": "0x0116d7321b4847121d6946Bb8E59A1049DAd4E08",
+    "oracle": "tokens",
+    "oracleId": "USDS",
+    "status": "active",
+    "createdAt": 1769286364,
+    "platformId": "compound",
+    "assets": ["USDS"],
+    "risks": [
+      "COMPLEXITY_LOW",
+      "BATTLE_TESTED",
+      "IL_NONE",
+      "MCAP_LARGE",
+      "PLATFORM_ESTABLISHED",
+      "AUDIT",
+      "CONTRACTS_VERIFIED"
+    ],
+    "strategyTypeId": "lendingNoBorrow",
+    "buyTokenUrl": "https://swap.defillama.com/?chain=base&from=0x0000000000000000000000000000000000000000&to=0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "single"
+      }
+    ]
+  },
+  {
     "id": "aerodrome-jeur-eurc",
     "name": "jEUR-EURC sLP",
     "type": "standard",
