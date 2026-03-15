@@ -299,5 +299,34 @@
         "ammId": "base-aerodrome"
       }
     ]
+  },
+  {
+    "id": "aerodrome-msusd-usdc",
+    "name": "msUSD-USDC sLP",
+    "type": "standard",
+    "token": "sAMM-msUSD/USDC",
+    "tokenAddress": "0xcEFC8B799a8EE5D9b312aeca73262645D664AaF7",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aerodrome",
+    "earnContractAddress": "0x34e38C486F8DC79A543EA09ee091c4317c94260d",
+    "earnedToken": "bimstmsUSD-USDCAerodrome",
+    "earnedTokenAddress": "0x34e38C486F8DC79A543EA09ee091c4317c94260d",
+    "oracle": "lps",
+    "oracleId": "aerodrome-msusd-usdc",
+    "status": "active",
+    "createdAt": 1773560496,
+    "platformId": "aerodrome",
+    "assets": ["msUSD", "USDC"],
+    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_LARGE", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://aerodrome.finance/deposit?token0=0x526728DBc96689597F85ae4cd716d4f7fCcBAE9d&token1=0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913&type=0",
+    "removeLiquidityUrl": "https://aerodrome.finance/withdraw",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aerodrome"
+      }
+    ]
   }
 ]
