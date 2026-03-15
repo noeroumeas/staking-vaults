@@ -270,5 +270,34 @@
         "ammId": "base-aerodrome"
       }
     ]
+  },
+  {
+    "id": "aerodrome-weth-mseth",
+    "name": "msETH-​WETH sLP",
+    "type": "standard",
+    "token": "sAMM-msETH/WETH",
+    "tokenAddress": "0xDE4FB30cCC2f1210FcE2c8aD66410C586C8D1f9A",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aerodrome",
+    "earnedToken": "bimstmsETH-​WETHAerodrome",
+    "earnedTokenAddress": "0xF386757Bd8d602385500a96f5DCCC4Ba3016CB3E",
+    "earnContractAddress": "0xF386757Bd8d602385500a96f5DCCC4Ba3016CB3E",
+    "oracle": "lps",
+    "oracleId": "aerodrome-weth-mseth",
+    "createdAt": 1773508365,
+    "status": "active",
+    "platformId": "aerodrome",
+    "assets": ["msETH", "WETH"],
+    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_LARGE", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://aerodrome.finance/deposit?token0=0x4200000000000000000000000000000000000006&token1=0x7Ba6F01772924a82D9626c126347A28299E98c98&type=0",
+    "removeLiquidityUrl": "https://aerodrome.finance/withdraw",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aerodrome"
+      }
+    ]
   }
 ]
