@@ -328,5 +328,34 @@
         "ammId": "base-aerodrome"
       }
     ]
+  },
+  {
+    "id": "aerodrome-tbtc-cbbtc",
+    "name": "tBTC-cbBTC sLP",
+    "type": "standard",
+    "token": "sAMM-tBTC/cbBTC",
+    "tokenAddress": "0x488d6ea6064eEE9352fdCDB7BC50d98A7fF3AD4E",
+    "tokenDecimals": 18,
+    "tokenProviderId": "aerodrome",
+    "earnContractAddress": "0xb63A9d040F376B70B9043BDa9a8b61823e41647c",
+    "earnedToken": "bimsttBTC-cbBTCAerodrome",
+    "earnedTokenAddress": "0xb63A9d040F376B70B9043BDa9a8b61823e41647c",
+    "oracle": "lps",
+    "oracleId": "aerodrome-tbtc-cbbtc",
+    "status": "active",
+    "createdAt": 1783363029,
+    "platformId": "aerodrome",
+    "assets": ["tBTC", "cbBTC"],
+    "risks": ["COMPLEXITY_LOW", "BATTLE_TESTED", "IL_NONE", "MCAP_LARGE", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "multi-lp",
+    "addLiquidityUrl": "https://aerodrome.finance/deposit?token0=0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b&token1=0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf&type=0",
+    "removeLiquidityUrl": "https://aerodrome.finance/withdraw",
+    "network": "base",
+    "zaps": [
+      {
+        "strategyId": "solidly",
+        "ammId": "base-aerodrome"
+      }
+    ]
   }
 ]
